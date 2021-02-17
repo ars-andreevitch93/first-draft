@@ -1,11 +1,40 @@
 body {
+  margin: 0;
   font-family: Helvetica;
+  border: dashed 1px red;
 }
 
-p {
-  font-family: Arial;
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
 }
 
-.title {
-  font-family: Roboto;
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo,
+.menu {
+  display: inline-block;
+}
+
+.logo {
+  margin-right: 63%;
+  padding: 40px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  padding: 0 13px;
+  border: dashed 1px red;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
 }
