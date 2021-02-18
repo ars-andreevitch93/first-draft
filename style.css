@@ -7,7 +7,6 @@ body {
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
 }
 
 .header {
@@ -23,8 +22,37 @@ body {
 .logo {
   margin-right: 63%;
   padding: 40px 0;
+  padding-left: 44px;
+  left: 50px;
+  font-family: pt_serif, arial, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  position: relative;
 }
 
+.logo__circle {
+  width: 28px;
+  height: 28px;
+  transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
+  left: 0;
+}
+
+.logo__circle_color_dark-blue {
+  background: #0056ec;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #c8dbfb;
+  border-radius: 50%;
+  opacity: 0.7;
+}
 .menu {
   display: flex;
   align-items: center;
@@ -32,7 +60,6 @@ body {
 
 .menu__item {
   padding: 0 13px;
-  border: dashed 1px red;
 }
 
 .menu__item:last-child {
