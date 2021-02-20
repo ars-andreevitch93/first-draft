@@ -16,12 +16,13 @@ body {
   position: relative;
   padding: 40px 0;
   font-family: PT Serif;
-  padding-left: 44px;
+  padding-left: 53px;
   font: bold 24px/32px pt_serif, arial, helvetica, sans-serif;
+  letter-spacing: 0px;
 }
 .logo__circle {
   position: absolute;
-  left: 0;
+  left: 6px;
   top: 50%;
   transform: translateY(-50%);
   width: 28px;
@@ -33,7 +34,7 @@ body {
   background: #0056ec;
 }
 .logo__circle_color_blue {
-  left: 8px;
+  left: 14px;
   top: 56%;
   background: #c8dbfb;
 }
